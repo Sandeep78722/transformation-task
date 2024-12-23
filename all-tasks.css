@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    cursor: pointer;
+    color: green;
+    padding-bottom: 50px;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span{
+    color: red;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration-line: underline;
+}
